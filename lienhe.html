@@ -1,0 +1,177 @@
+<html>
+
+<head>
+    <title>Liên hệ</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="sách vở,đồ dùng,văn phòng phẩm,sách giáo khoa,sách văn học,văn phòng phẩm">
+    <meta name="description" content="mua bán sách,đồ dùng,văn phòng phẩm">
+    <meta name="author" content="BookCat">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lienhe.css">
+    <header>
+        <div class="web">
+            <div class="header" id="trangchu">
+                <div>
+                    <a href="#"><img src="image/logo-sach(44).png" alt="logo" class="logo"></a>
+                </div>
+                <div>
+                    <a href="#"><img src="image/logo-sach.png" alt="" class="seas"></a>
+                    <form><input class="sea" type="longtext" name="search" placeholder="Tìm kiếm ở đây...."></form>
+                </div>
+                <div class="nes">
+                    <div>
+                        <a href="login.html" title="đăng nhập/đăng ký"><img class="bag" src="image/login.png"
+                                alt="login" style="margin-top:-10px;"></a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="bag" src="image/bag2.png" alt="bag" style="margin-top:-10px;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li class="btn"><a href="trangchu.html">Trang Chủ</a></li>
+                    <li class="btn"><a href="gioithieu.html">Giới Thiệu</a></li>
+                    <li class="btn"><a href="#">Sản Phẩm</a><i class="fa fa-angle-down"></i>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li class="sub"><a href="tusach.html">Tủ sách</a></li>
+                                <li class="sub"><a href="sgk.html">Sách giáo khoa</a></li>
+                                <li class="sub"><a href="vanphongpham.html">Văn phòng phẩm</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class=" btn"><a href="khuyenmai.html">Khuyến Mại</a></li>
+                    <li class="btn"><a href="tintuc.html">Tin Tức</a></li>
+                    <li class="active btn"><a href="lienhe.html">Liên Hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</head>
+
+<body>
+    <div class="list-sub">
+        <a href="tintuc.html">Liên Hệ</a>
+    </div>
+    <div class="container">
+        <div class="main">
+            <h2>Để lại tin nhắn cho chúng tôi</h2>
+            <form action="" onsubmit="validate()">
+                <label>Họ và tên<span>*</span>: </label>
+                <input type="text" id="fullname" placeholder="Tên đầy đủ của bạn" />
+                <label>Email<span>*</span>:</label>
+                <input type="text" id="email" placeholder="Email" />
+                <label>Số điện thoại:</label>
+                <input type="text" id="phonenumber" placeholder="Số điện thoại của bạn" />
+                <p><label for="subject">Subject<span>*</span></label></p>
+                <textarea id="subject" name="subject" placeholder="Để lại tin nhắn cho chúng tôi...."
+                    style="height:200px"></textarea>
+                <p><button style="outline: none;" type="submit" />
+                    <font size=5px>Gửi tin nhắn</font></button>
+                </p>
+            </form>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="942" height="451" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=University%20of%20Communications%20and%20Transport&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="
+                        https://sites.google.com/view/maps-api-v2/mapv2"></a>"></a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 451px;
+                        width: 942px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 451px;
+                        width: 942px;
+                    }
+                </style>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="infot">
+            <div class="thongtin_1">
+                <p>ĐĂNG KÝ NHẬN EMAIL<br>
+                    Đăng ký nhận thông tin sản phẩm mới nhất</p>
+            </div>
+            <div class="thongtin_2">
+                <form>
+                    <input type="text" class="tn" name="nameclient" placeholder="Tên của bạn">
+                    <input type="text" class="te" name="emailclient" placeholder="Email của bạn">
+                    <select name="dropdown" class="tt">
+                        <option value="Tatca" selected>Thể loại yêu thích</option>
+                        <option value="sachvan">Sách Ngoại Văn</option>
+                        <option value="sachkinhte">Sách Kinh Tế</option>
+                        <option value="sachvanhoctrongnuoc">Sách Văn Học Trong Nước</option>
+                        <option value="sachvanhocnuocngoai">Sách Văn Học Nước Ngoài</option>
+                        <option value="sachdoisong">Sách Đời Sống</option>
+                        <option value="sachthieunhi">Sách Thiếu Nhi</option>
+                        <option value="sachngoaingu">Sách Ngoại Ngữ</option>
+                        <option value="sachphattrienbanthan">Sách Phát Triển Bản Thân</option>
+                        <option value="sachchuyennganh">Sách Chuyên Ngành</option>
+                        <option value="tapchivanphongpham">Tạp Chí-Văn Phòng Phẩm</option>
+                    </select>
+                    <input class="ts" type="submit" name="submit" value="ĐĂNG KÝ NGAY">
+                </form>
+            </div>
+        </div>
+        <div class="last">
+            <img src="image/donors.png" alt="donors" class="taitro"
+                style="display: block; margin-left: auto; margin-right: auto;">
+            <hr>
+            <br>
+            <div class="col">
+                <div class="l0"><br>
+                    <img src="image/logo-sach(44).png" alt="" width="140px" height="auto">
+                    <p><b>Nhóm Bài Tập Lớn BOOKCAT Shop</b></p><br>
+                    <p>GPKD số 01G801954 do UBND Quận Cầu Giấy Cấp ngày 07/12/2020</p><br>
+                    <a href="#">Chính sách bảo mật</a><br><br>
+                    <a href="#">Chính sách vận chuyển</a><br><br>
+                    <a href="#">Chính sách đổi trả</a><br><br>
+                    <a href="#">Hình thức thanh toán</a><br>
+                    <img src="image/logo_lien_he.png" alt="">
+                </div>
+                <div class="l1"><br>
+                    <p class="big">Liên kết nhanh</p><br>
+                    <a href="#">Tủ Sách</a><br><br>
+                    <a href="#">Sách Giáo Khoa</a><br><br>
+                    <a href="#">Dụng Cụ Học Tập</a><br><br>
+                    <a href="#">Văn Phòng Phẩm</a><br><br>
+                    <a href="#">Khuyến Mại Nổi Bật</a><br><br>
+                    <a href="#">Tin Tức</a><br><br>
+                    <img src="image/thongbao.png" alt="" width="300px" height="auto"><br><br>
+                    <a href="#trangchu" class="ve">Về Đầu Trang</a>
+                </div>
+                <div class="l2"><br>
+                    <p class="big">Thông tin liên hệ</p><br>
+                    <p><b>Ngô Quang Huy</b>-CNTT-6-K60</p>
+                    <p><b>Điện thoại: </b>012345789</p><br>
+                    <p><b>Nguyễn Đức Định</b>-CNTT-6-K60</p>
+                    <p><b>Điện thoại: </b>088888888</p><br>
+                    <p><b>Tăng Tuấn Nghĩa</b>-CNTT-6-K60</p>
+                    <p><b>Điện thoại: </b>0333333333</p><br>
+                    <p><b>Nguyễn Lương Bình</b>-CNTT-6-K60</p>
+                    <p><b>Điện thoại: </b>099999999</p><br>
+                    <p><b>Nguyễn Bá Nam</b>-CNTT-6-K60</p>
+                    <p><b>Điện thoại: </b>000000000</p><br>
+                    <p><b>Email: </b>bookcatshop@gmail.com</p><br>
+                    <p><b>Đường dây nóng: </b>19001234</p><br>
+                    <p><b>Zalo: </b>0333666999</p><br>
+                </div>
+            </div>
+        </div>
+        <p class="hihi">© Bản quyền thuộc về<b>&nbspBOOKCAT
+                Shop&nbsp</b> | Cung cấp bởi Google</p>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
